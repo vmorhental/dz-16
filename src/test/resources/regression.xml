@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+    <test name="Operations smoke">
+        <classes>
+                        <class name="RestAssuredTests"></class>
+            <!--            <class name="tests.SortTest"></class>-->
+        </classes>
+    </test>
+</suite>
